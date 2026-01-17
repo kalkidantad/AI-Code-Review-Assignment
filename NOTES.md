@@ -1,14 +1,8 @@
 # Notes (Optional)
+How I decide on generated Code?
 
-This file is optional.
+1. Accept when the intent, definition and core logic are correct. The output would not mislead a downstream user or system.
 
-Use it only if you want to provide **additional context** for the reviewer that does not fit cleanly in `submission_template.md`.
+2. Request change when the model understands what problem it's solving and errors come from missing conditions,filters or edge cases.
 
-Examples of appropriate use:
-- Assumptions you made
-- Known limitations of your solution
-- Alternative approaches you considered but did not implement
-
-Do not repeat information already included in `submission_template.md`.
-
-Remove the contents of this file and write your notes.
+3. Reject when the model misunderstands the definition of the task. Also where iteration would encourage false confidence.
